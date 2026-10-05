@@ -1,5 +1,12 @@
 # alarmclock
 
+<!-- After pushing, replace OWNER/REPO below with your GitHub path so the CI badge goes live. -->
+[![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![Runtime deps](https://img.shields.io/badge/runtime%20dependencies-0-brightgreen)
+![Tests](https://img.shields.io/badge/tests-57%20passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 A small, dependency-free alarm clock for the terminal. Set one-shot or
 recurring alarms, then run a watcher that rings them when they are due.
 

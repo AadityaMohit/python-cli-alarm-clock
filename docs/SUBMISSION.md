@@ -19,15 +19,18 @@ Senior Software Engineer- [Your Name]
 
 ## Push to GitHub
 
+The repo is already initialized and committed. Just create the GitHub repo and push:
+
 ```bash
 cd "alarm-clock"
-git init
-git add .
-git commit -m "Alarm clock CLI: dependency-free Python, tested scheduling core"
-git branch -M main
 git remote add origin https://github.com/<you>/alarm-clock.git
 git push -u origin main
 ```
+
+Then, so the CI badge in the README goes live:
+1. In `README.md`, replace both `OWNER/REPO` occurrences with `<you>/alarm-clock`.
+2. Commit and push: `git commit -am "Point CI badge at repo" && git push`.
+3. Confirm the Actions tab shows a green run (tests on Linux + Windows, Py 3.10-3.13).
 
 ## Email draft
 
