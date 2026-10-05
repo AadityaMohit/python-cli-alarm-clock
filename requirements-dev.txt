@@ -1,0 +1,4 @@
+# Development/test dependencies only.
+# The application itself has NO runtime dependencies (standard library only),
+# so there is intentionally no requirements.txt. See pyproject.toml.
+pytest>=7.0
