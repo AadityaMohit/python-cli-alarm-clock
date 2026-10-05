@@ -9,7 +9,7 @@ description = "A small, dependency-free alarm clock for the command line."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "Aaditya" }]
+authors = [{ name = "Aaditya Mohit" }]
 keywords = ["alarm", "clock", "cli", "terminal"]
 classifiers = [
     "Environment :: Console",
